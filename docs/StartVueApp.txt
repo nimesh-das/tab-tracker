@@ -1,0 +1,18 @@
+1) create git repo
+2) sudo npm install -g vue-cli
+3) vue init webpack client
+4) make client folder, mkdir client; cd client; make server folder, mkdir folder
+5) sudo npm install
+6) npm run dev
+
+under server:
+7) npm init -f
+8) npm install --save nodemon eslint
+9) edit server/package.json file:
+- remove test
+- add the following 2 lines:
+	"start": "./node_modules/nodemon/bin/nodemon.js src/app.js --exec 'npm run lint && node'",
+    "lint": "./node_modules/.bin/eslint js"
+10) sudo npm init @eslint/config
+11) npm init @eslint/config
+12) sudo npm install --save express body-parser cors morgan

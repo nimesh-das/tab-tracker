@@ -1,6 +1,0 @@
-1) create git repo
-2) sudo npm install -g vue-cli
-3) vue init webpack client
-4) cd client
-5) sudo npm install
-6) npm run dev
